@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meeting Notes</title>
+    <!-- <link rel="icon" type="images/png" href="https://emojiisland.com/cdn/shop/products/Emoji_Icon_-_Sunglasses_cool_emoji_large.png?v=1571606093"> -->
+    <meta name="description" content="This website is about potential meeting notes.">
+    <meta name="author" content="Joshua Park">
+
+    <style>
+      .image-row {
+        display: flex;
+        justify-content: center; /* Optional: centers the images horizontally */
+        gap: 10px; /* Optional: space between images */
+      }
+      .image-row img {
+        width: 450px; /* Adjust as needed */
+        height: auto;
+      }
+      .video-row {
+      display: flex;
+      justify-content: center;
+      gap: 10px; /* space between videos */
+      flex-wrap: wrap; /* allows wrapping on smaller screens */
+      }
+      .video-row video {
+        width: 450px; /* Adjust width as needed */
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+    </header>
+
+    <main>
+      <h1>Figures for Decoder</h1>
+      <h3>Colormap by L2 Distance from Arm to Reference Point</h3>
+      <b>Images:</b>
+      <div class="image-row">
+        <img src="media_5_22/decoder0pcas_jointDistanceColor_rotation.png" alt="Image of layer 0">
+        <img src="media_5_22/decoder1pcas_jointDistanceColor_rotation.png" alt="Image of layer 1">
+        <img src="media_5_22/decoder2pcas_jointDistanceColor_rotation.png" alt="Image of layer 2">
+      </div>
+      <hr>
+      <b>Videos:</b>
+      <div class="video-row">
+        <video controls>
+          <source src="media_5_22/decoder0pcas_jointDistanceColor_rotation.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <video controls>
+          <source src="media_5_22/decoder1pcas_jointDistanceColor_rotation.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <video controls>
+          <source src="media_5_22/decoder2pcas_jointDistanceColor_rotation.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <hr style="height: 20px; background-color: #FFFFFF; border: none;">
+      <hr>
+      <hr style="height: 20px; background-color: #FFFFFF; border: none;">
+
+
+      <h1>Figures for Intention</h1>
+
+      <div style="display: flex; justify-content: center; align-items: center">
+        <img src="media_5_22/intention_jointDistanceColor_rotation.png" alt="Image of layer 0" width="450">
+        <video width="450" controls>
+          <source src="media_5_22/intention_jointDistanceColor_rotation.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <hr style="height: 20px; background-color: #FFFFFF; border: none;">
+      <hr>
+      <hr style="height: 20px; background-color: #FFFFFF; border: none;">
+      
+
+    </main>
+
+    <footer>
+
+    </footer>
+  </body>
+</html>
+
